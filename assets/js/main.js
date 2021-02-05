@@ -65,9 +65,9 @@
 			$('.navbar-expand-lg').removeClass('navbar-reduce');
 		}
 		if ($(window).scrollTop() > top) {
-			$('.scrolltop-mf').fadeIn(1000, "easeInOutExpo");
+			$('.scrolltop-mf').fadeIn(3000, "easeInOutExpo");
 		} else {
-			$('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
+			$('.scrolltop-mf').fadeOut(3000, "easeInOutExpo");
 		}
 	});
 	// Back to top button 
